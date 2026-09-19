@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-APS、签证与轻量常见问题的静态候选版本已实现；独立验收由评估方在交付后执行，当前不声明验收通过。
+APS、签证与轻量常见问题的静态版本已实现，并已完成 Milestone 01 的独立技术验收。完整 Playwright 验收在桌面 Chromium、移动 Chromium 与桌面 WebKit 上通过；后续仍可进行人工视觉/文案复核。
 
 候选网站：https://the-aries.github.io/checklist-for-studying-in-germany/
 

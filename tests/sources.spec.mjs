@@ -32,7 +32,7 @@ test('stage reference blocks contain only real absolute URLs', async ({ page }) 
   for (const route of ['aps', 'visa']) {
     await page.goto(`/#${route}`);
     const links = page.locator('[data-testid="references"] a[href]');
-    expect(await links.count()).toBeGreaterThan(0);
+    await expect.poll(() => links.count()).toBeGreaterThan(0);
 
     for (let index = 0; index < await links.count(); index += 1) {
       const href = await links.nth(index).getAttribute('href');

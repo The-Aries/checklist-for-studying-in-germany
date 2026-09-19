@@ -1,0 +1,586 @@
+{
+  "sources": [
+    {
+      "id": "APS-001",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "一般中国境内申请人审核程序须知",
+      "url": "https://www.aps.org.cn/wp-content/uploads/210_merkblatt_verfahren_china_chn.pdf",
+      "retrieved": "2026-09-19",
+      "sourceDate": "2026-09",
+      "section": "pp. 1–5; graduate checklist primarily p. 3"
+    },
+    {
+      "id": "APS-002",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "一般国内申请人审核程序",
+      "url": "https://www.aps.org.cn/zh/verfahren-und-services-deutschland/chinaverfahren",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "main procedure page"
+    },
+    {
+      "id": "APS-003",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "审核相关费用",
+      "url": "https://www.aps.org.cn/zh/verfahren-und-services-deutschland/entgelte",
+      "retrieved": "2026-09-19",
+      "sourceDate": "effective 2025-04-07",
+      "section": "China procedure fee table"
+    },
+    {
+      "id": "APS-004",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "审核部面谈",
+      "url": "https://www.aps.org.cn/zh/verfahren-und-services-deutschland/chinaverfahren/interview",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "interview guidance"
+    },
+    {
+      "id": "APS-005",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "申请德国签证",
+      "url": "https://www.aps.org.cn/zh/verfahren-und-services-deutschland/visum-fur-deutschland",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "visa-routing table"
+    },
+    {
+      "id": "APS-006",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "德国驻上海总领事馆留德人员审核部",
+      "url": "https://www.aps.org.cn/zh/aps-am-gk-shanghai",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "“材料邮寄” / “审核面谈”"
+    },
+    {
+      "id": "VISA-001",
+      "authority": "德国驻华使领馆 / 德国外交部",
+      "label": "留学",
+      "url": "https://china.diplo.de/cn-zh/service/visa-einreise/2727522-2727522",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "“所需材料”, “处理时间”, “预约”, “一路顺风”"
+    },
+    {
+      "id": "VISA-002",
+      "authority": "德国驻华使领馆 / 德国外交部",
+      "label": "留学签证申请须知（居留法第 16b 条）",
+      "url": "https://china.diplo.de/resource/blob/1341652/8ca70103f8b990ea72205458b6fab72c/pdf-merkblatt-natvisum-studium-data.pdf",
+      "retrieved": "2026-09-19",
+      "sourceDate": "2025-01",
+      "section": "pp. 1–4"
+    },
+    {
+      "id": "VISA-003",
+      "authority": "德国驻华使领馆 / 德国外交部",
+      "label": "长期居留",
+      "url": "https://china.diplo.de/cn-zh/service/visa-einreise/nationales-visum-1345434",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "five-step procedure and download section"
+    },
+    {
+      "id": "VISA-004",
+      "authority": "德国驻华使领馆 / 德国外交部",
+      "label": "长期居留常见问题",
+      "url": "https://china.diplo.de/cn-zh/service/visa-einreise/faq-national-visa-1434978",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "study-visa jurisdiction and translation questions"
+    },
+    {
+      "id": "VISA-005",
+      "authority": "德国联邦政府 “Make it in Germany”",
+      "label": "Visa for studying",
+      "url": "https://www.make-it-in-germany.com/en/visa-residence/types/studying",
+      "retrieved": "2026-09-19",
+      "sourceDate": "current 2026 page",
+      "section": "requirements for study visa"
+    }
+  ],
+  "stages": [
+    {
+      "id": "aps",
+      "title": "APS 审核",
+      "appliesTo": "适用于已取得中国大陆普通高校本科学历、计划赴德国攻读硕士，并走 APS 一般国内申请人程序的申请人。",
+      "lastUpdated": "2026-09-19",
+      "lastVerified": "2026-09-19",
+      "intro": [
+        "本科已经毕业的申请人当前继续参加 APS 面谈审核；本页不按本科在读生的 TestAS 路径设计。",
+        "如果你有交换学习、转专业、专升本、更高一级学历或延期毕业等经历，本清单不足以覆盖你的补充材料，请同时查看 APS 官方“特殊情况另须补充材料”。"
+      ],
+      "groups": [
+        {
+          "id": "process",
+          "title": "办理步骤与材料",
+          "items": [
+            {
+              "id": "aps-register",
+              "title": "在线注册",
+              "description": "在 APS 官网选择“一般国内申请人审核程序”完成注册，信息必须完整真实。",
+              "sources": [
+                "APS-001",
+                "APS-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-pay-fee",
+              "title": "支付审核费",
+              "description": "当前一般国内申请人审核费为人民币 2500 元，按 APS 官方汇款要求支付并保存汇款凭证。",
+              "sources": [
+                "APS-001",
+                "APS-003"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-mail-package",
+              "title": "邮寄完整材料",
+              "description": "本科毕业生走面谈审核；上海辖区（江苏、安徽、浙江、上海）按官方要求寄上海审核部，其它辖区寄北京审核部。",
+              "sources": [
+                "APS-001",
+                "APS-006"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-monitor-review",
+              "title": "关注审核状态",
+              "description": "APS 收到材料后约 10 天给出档案号；持续查看注册邮箱及 APS 账号，按系统通知补交材料。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-interview",
+              "title": "参加 APS 面谈",
+              "description": "材料审核通过后按系统邮件通知参加面谈；面谈含约 20 分钟书面准备和最长约 25 分钟口头部分，可使用英语和/或德语。",
+              "sources": [
+                "APS-001",
+                "APS-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-download-digzert",
+              "title": "下载 DigZert",
+              "description": "审核通过后在 APS 个人账号下载数字签名审核证书 DigZert，后续高校申请和签证使用。",
+              "sources": [
+                "APS-001",
+                "APS-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            }
+          ]
+        },
+        {
+          "id": "documents",
+          "title": "材料清单",
+          "items": [
+            {
+              "id": "aps-registration-proof",
+              "title": "在线注册证明",
+              "description": "打印注册证明，贴 6 个月内 2 寸证件照，亲笔签名并写明签字地点和日期。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-transfer-proof",
+              "title": "汇款单复印件",
+              "description": "应清楚显示汇款人、金额、时间、汇出银行和申请人姓名等信息。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-id-passport",
+              "title": "身份证 / 护照复印件",
+              "description": "提交身份证正反面复印件；如已有护照，同时提交护照复印件。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-admission-roster",
+              "title": "大学录取花名册",
+              "description": "提交高校招生办或档案馆出具的中英双语密封件，或中英翻译公证件；大学录取通知书不能替代。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-transcript",
+              "title": "大学成绩单",
+              "description": "提交中英双语密封件或中英翻译公证件；成绩单按学期排列并包含全部课程，包括未通过课程。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-language-proof",
+              "title": "德语 / 英语水平证明",
+              "description": "提交德语和/或英语语言水平证明复印件；没有相应证明时按官方要求提供自学学时说明。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-degree-docs",
+              "title": "本科毕业证和学位证",
+              "description": "提交毕业证书及学位证书的中英双语密封件或中英翻译公证件。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "aps-postgrad-cv",
+              "title": "毕业后表格式简历",
+              "description": "本科毕业超过一年时，提交德文或英文表格式简历，按时间段说明毕业后的经历。",
+              "sources": [
+                "APS-001"
+              ],
+              "sourceLocation": "p. 3",
+              "progress": true,
+              "condition": {
+                "field": "graduationAge",
+                "equals": "over-one-year"
+              }
+            }
+          ]
+        }
+      ],
+      "references": [
+        "APS-001",
+        "APS-002",
+        "APS-003",
+        "APS-004",
+        "APS-006"
+      ],
+      "notes": [
+        {
+          "title": "双语密封件",
+          "text": "由学校出具，包含中英文材料原件并加盖学校公章，信封封口同样需学校盖章且不得自行拆封；只有院系级盖章无效。学校不能提供时，可按 APS 说明改交中英翻译公证件。",
+          "sources": [
+            "APS-001"
+          ]
+        },
+        {
+          "title": "成绩单",
+          "text": "应由教务处或档案馆出具，按学期排列并包含全部课程及结果；辅修/双学位成绩与主修专业分开开具。",
+          "sources": [
+            "APS-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "title": "德国留学签证",
+      "appliesTo": "适用于已经取得德国高校硕士专业录取、准备按照《居留法》第 16b 条申请普通留学签证的本项目目标用户。",
+      "lastUpdated": "2026-09-19",
+      "lastVerified": "2026-09-19",
+      "intro": [
+        "本页不覆盖“留学申请人签证”、纯语言班、博士、交换项目等其它居留目的。",
+        "德国驻华使领馆现行留学页面写明：正常处理时间约 2–4 周，个别情况更长；最早可在计划出行前 6 个月递交。处理时间不是承诺，应尽早准备。"
+      ],
+      "groups": [
+        {
+          "id": "process",
+          "title": "办理步骤与材料",
+          "items": [
+            {
+              "id": "visa-confirm-jurisdiction",
+              "title": "确认递签地点与预约方式",
+              "description": "递交地点按当前常住地和官方辖区规则确定；北京/上海等辖区的 APS 申请人可能通过 APS 递签，其它辖区按领馆规则办理。",
+              "sources": [
+                "APS-005",
+                "VISA-003",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-book-appointment",
+              "title": "预约递签",
+              "description": "按主管机构的当前在线预约/等候名单规则预约，长期签证原则上需要本人递交。",
+              "sources": [
+                "VISA-001",
+                "VISA-003",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-prepare-copy-set",
+              "title": "按要求整理材料",
+              "description": "携带材料原件和一套复印件；复印件单面、按官方顺序整理，不订书或粘贴；中文材料附德文译文，英文材料无需再译德文。",
+              "sources": [
+                "VISA-001",
+                "VISA-002",
+                "VISA-003",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-videx",
+              "title": "VIDEX 申请表",
+              "description": "使用官方 VIDEX 用德语或英语完整填写，打印后亲笔签名。",
+              "sources": [
+                "VISA-001",
+                "VISA-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null,
+              "links": [
+                {
+                  "label": "打开官方 VIDEX",
+                  "url": "https://videx.diplo.de/videx/visum-erfassung/videx-langfristiger-aufenthalt"
+                }
+              ]
+            },
+            {
+              "id": "visa-section54",
+              "title": "《居留法》第 54 条告知书",
+              "description": "打印官方告知书，阅读后亲笔签名。",
+              "sources": [
+                "VISA-001",
+                "VISA-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null,
+              "links": [
+                {
+                  "label": "下载官方告知书",
+                  "url": "https://china.diplo.de/resource/blob/2561252/5e9cccec777a2ca0b7aaa019dcd6f670/belehrung-zum-visumantrag-data.pdf"
+                }
+              ]
+            },
+            {
+              "id": "visa-biometric-photos",
+              "title": "生物识别证件照",
+              "description": "准备 2 张近期生物识别照片，不接受精修照片或 6 个月前的照片。",
+              "sources": [
+                "VISA-001",
+                "VISA-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-passport",
+              "title": "护照及相关页面复印件",
+              "description": "护照自签证签发之日起应仍有一年以上有效期且至少有两页完全空白页；携带原件及信息页、签证和出入境印章页复印件。",
+              "sources": [
+                "VISA-001"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-china-residence-proof",
+              "title": "中国常住地 / 地址证明",
+              "description": "提供能证明当前实际居住或工作/学习地点的材料；户口簿通常不足以单独证明当前常住地。",
+              "sources": [
+                "VISA-001",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-admission",
+              "title": "德国高校录取通知书",
+              "description": "提交德国高校硕士专业录取通知书；官方现行页面允许提交电子版录取通知书打印件。",
+              "sources": [
+                "VISA-001",
+                "VISA-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-language",
+              "title": "授课语言要求及语言证明",
+              "description": "提交学校对授课语言/要求级别的说明，并提供与录取要求相符的语言水平证明。",
+              "sources": [
+                "VISA-002"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-finance",
+              "title": "资金证明",
+              "description": "2026 年普通留学路径按至少 992 欧元/月、11,904 欧元/年证明生活费，可用限制提款账户、奖学金或经济担保函等官方接受方式。",
+              "sources": [
+                "VISA-002",
+                "VISA-005"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-degree",
+              "title": "本科毕业证和学位证",
+              "description": "提交已取得的高等教育毕业/学位证明；中文材料按当前长期签证规则附德文译文。",
+              "sources": [
+                "VISA-002",
+                "VISA-003",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-cv",
+              "title": "个人简历",
+              "description": "提交完整个人经历的清晰表格式简历，可使用德语或英语。",
+              "sources": [
+                "VISA-002",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-motivation",
+              "title": "留学动机说明信",
+              "description": "由本人撰写并签名，说明赴德学习的个人具体理由，可使用德语或英语。",
+              "sources": [
+                "VISA-002",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-aps-proof",
+              "title": "APS 审核证明 / DigZert",
+              "description": "中国高校学历申请人按当前要求提交 APS 审核证明；持 DigZert 的申请人使用其打印版。",
+              "sources": [
+                "VISA-002",
+                "APS-005"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-insurance",
+              "title": "医疗保险证明",
+              "description": "申请时需有足够医疗保险；若德国法定学生保险尚未生效，入境至其生效前的时间需有适用的私人/旅行医疗保险覆盖。",
+              "sources": [
+                "VISA-002",
+                "VISA-004"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-fee",
+              "title": "签证费",
+              "description": "成年申请人当前签证费为 75 欧元等值人民币；具体支付方式按实际递交地点的最新规则执行。",
+              "sources": [
+                "VISA-001",
+                "VISA-002",
+                "APS-005"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-submit",
+              "title": "本人递交并提供生物识别信息",
+              "description": "按预约携带完整材料本人递交，并按主管机构要求提交照片/指纹等生物识别信息。",
+              "sources": [
+                "VISA-003"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "visa-check-issued-label",
+              "title": "收到签证后立即核对",
+              "description": "核对姓名、护照号码、照片和有效期；发现错误立即联系签发使领馆。",
+              "sources": [
+                "VISA-001",
+                "VISA-003"
+              ],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            }
+          ]
+        }
+      ],
+      "references": [
+        "VISA-001",
+        "VISA-002",
+        "VISA-003",
+        "VISA-004",
+        "VISA-005",
+        "APS-005"
+      ],
+      "notes": []
+    }
+  ]
+}

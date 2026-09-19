@@ -1,0 +1,29 @@
+title: "[提问] "
+body:
+  - type: markdown
+    attributes:
+      value: 请使用上方标题概括问题。社区回答需自行核对官方来源；请勿公开护照号、身份证号或个人申请材料。
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 正在办理的阶段
+      options: [APS, 签证, 其它]
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 问题正文
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 已查阅的官方来源（可选）
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 发布前确认
+      options:
+        - label: 我未包含护照号码、身份证号码或其它敏感个人资料。
+          required: true

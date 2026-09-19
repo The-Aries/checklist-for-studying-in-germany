@@ -1,0 +1,14 @@
+@page { size:A4; margin:14mm; }
+:root,body { color:#000; background:#fff; font-size:10pt; }
+.page { max-width:none; margin:0; padding:0; border:0; background:#fff; }
+nav,.actions,footer,.skip-link,#storage-notice,select { display:none !important; }
+h1 { font-size:18pt; } h2 { font-size:15pt; } h3 { break-after:avoid; }
+.summary { display:flex; justify-content:space-between; gap:10px; } .dates { display:grid; } progress { display:none; }
+.intro,.audience,.notes,.dates,.condition,a { color:#000; } a { text-decoration:none; }
+.profile { background:none; border:1px solid #777; margin:12px 0; padding:8px; }
+table { display:table; table-layout:fixed; } thead { display:table-header-group; position:static; width:auto; height:auto; clip-path:none; } tbody { display:table-row-group; } tr { display:table-row; break-inside:avoid; } td,th { display:table-cell; border-bottom:1px solid #999; padding:6px; } th:first-child { width:35px; } th:last-child { width:88px; } td.description { font-size:9pt; } td.sources { font-size:7pt; }
+thead,[data-applicable="false"] { background:none; } input[type="checkbox"] { display:none; } .check-label { width:20px; min-height:20px; } .print-box { display:inline-block; width:12px; height:12px; border:1px solid #000; position:relative; }
+input:checked + .print-box::after { content:""; position:absolute; width:6px; height:3px; border-left:2px solid #000; border-bottom:2px solid #000; transform:rotate(-45deg); top:2px; left:2px; }
+body[data-print="blank"] .print-box::after { display:none; }
+body[data-print="blank"] [data-testid="overall-progress"],body[data-print="blank"] [data-testid="stage-progress"] { visibility:hidden; }
+.references { font-size:8pt; } .references a::after { content:" — " attr(href); overflow-wrap:anywhere; font-size:7pt; } .references li { break-inside:avoid; } .feedback { display:none; }

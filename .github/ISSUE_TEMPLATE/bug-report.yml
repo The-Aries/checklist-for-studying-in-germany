@@ -1,0 +1,41 @@
+name: 网站问题
+description: 报告勾选、保存、导航、布局或打印问题。
+title: "[网站问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交个人证件或申请材料；截图请先隐藏敏感信息。
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器与设备
+    validations:
+      required: true
+  - type: input
+    id: route
+    attributes:
+      label: 页面地址或阶段
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期表现
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图（可选，请隐藏敏感信息）

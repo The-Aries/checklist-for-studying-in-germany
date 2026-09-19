@@ -1,0 +1,43 @@
+name: 内容纠错
+description: 报告清单中的过期信息、错误或失效官方链接。
+title: "[内容纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交身份证号、护照号或个人申请材料。请优先提供负责该事项的官方来源。
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 页面或阶段
+      options: [APS, 签证, 常见问题]
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: 清单条目或原文
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 错误或过期之处
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议更正的信息
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方来源 URL
+      description: 请尽可能注明对应页码、章节或发布日期。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 其它说明（可选）

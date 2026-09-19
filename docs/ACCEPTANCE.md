@@ -23,6 +23,7 @@ These are release criteria, not the Codex-owned test suite. Independent tests ar
 - [ ] Hash routes work for every implemented main section (APS, visa, FAQ).
 - [ ] Browser back/forward behavior is coherent.
 - [ ] Directly opening a section hash renders the intended section.
+- [ ] APS and visa tab labels show compact live completed/total counts; APS count respects the graduation-age condition and updates immediately.
 
 ## Checklist UI
 

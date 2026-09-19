@@ -71,7 +71,7 @@ Every main content tab displays:
 - current-stage progress;
 - `Last Updated`;
 - `Last Verified`;
-- tab navigation, optionally including compact per-stage completion counts.
+- tab navigation with compact per-stage completion counts for checklist stages.
 
 `Last Updated` means the content/data was last changed.
 

@@ -50,6 +50,14 @@ Every main section should expose, near the top:
 - `Last Verified`;
 - main tab navigation.
 
+Checklist-stage tab labels must also expose compact live completion counts, for example:
+
+```
+APS 1/13   签证 0/19   FAQ
+```
+
+The APS denominator follows the graduation-age applicability rule. The counts update immediately when a checkbox or the applicability answer changes. FAQ has no progress count.
+
 The header does not need to be sticky.
 
 ## 4. Progress display

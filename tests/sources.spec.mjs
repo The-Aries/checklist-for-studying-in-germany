@@ -4,6 +4,7 @@ const expectedHosts = new Set([
   'www.aps.org.cn',
   'aps.org.cn',
   'china.diplo.de',
+  'videx.diplo.de',
   'www.make-it-in-germany.com',
   'make-it-in-germany.com'
 ]);
@@ -12,8 +13,8 @@ for (const route of ['aps', 'visa']) {
   test(`${route} rows expose authoritative source links`, async ({ page }) => {
     await page.goto(`/#${route}`);
     const rows = page.locator('[data-checklist-id]');
+    await expect.poll(() => rows.count()).toBeGreaterThan(0);
     const count = await rows.count();
-    expect(count).toBeGreaterThan(0);
 
     for (let index = 0; index < count; index += 1) {
       const links = rows.nth(index).locator('a[href^="http"]');

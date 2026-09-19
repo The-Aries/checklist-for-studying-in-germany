@@ -1,0 +1,15 @@
+{
+  "name": "checklist-for-studying-in-germany",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:chromium": "playwright test --project=desktop-chromium --project=mobile-chromium",
+    "test:e2e:webkit": "playwright test --project=desktop-webkit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
+

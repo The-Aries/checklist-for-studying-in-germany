@@ -55,6 +55,15 @@
       "section": "“材料邮寄” / “审核面谈”"
     },
     {
+      "id": "APS-007",
+      "authority": "德国驻华大使馆文化处留德人员审核部（APS）",
+      "label": "“一般国内申请人程序”调整（自2024年7月23日起施行）",
+      "url": "https://www.aps.org.cn/zh/verfahren-und-services-deutschland/chinaverfahren/umstellung-zum-chinaverfahren",
+      "retrieved": "2026-09-19",
+      "sourceDate": "live page",
+      "section": "以下申请人将继续参加面谈审核：大学本科已经毕业的申请人"
+    },
+    {
       "id": "VISA-001",
       "authority": "德国驻华使领馆 / 德国外交部",
       "label": "留学",
@@ -146,7 +155,8 @@
               "description": "本科毕业生走面谈审核；上海辖区（江苏、安徽、浙江、上海）按官方要求寄上海审核部，其它辖区寄北京审核部。",
               "sources": [
                 "APS-001",
-                "APS-006"
+                "APS-006",
+                "APS-007"
               ],
               "sourceLocation": "",
               "progress": true,
@@ -169,7 +179,8 @@
               "description": "材料审核通过后按系统邮件通知参加面谈；面谈含约 20 分钟书面准备和最长约 25 分钟口头部分，可使用英语和/或德语。",
               "sources": [
                 "APS-001",
-                "APS-004"
+                "APS-004",
+                "APS-007"
               ],
               "sourceLocation": "",
               "progress": true,
@@ -292,7 +303,8 @@
         "APS-002",
         "APS-003",
         "APS-004",
-        "APS-006"
+        "APS-006",
+        "APS-007"
       ],
       "notes": [
         {

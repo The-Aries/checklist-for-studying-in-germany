@@ -10,7 +10,8 @@ a { color:var(--accent); text-underline-offset:3px; overflow-wrap:anywhere; }
 a:hover { text-decoration-thickness:2px; }
 .summary { display:grid; grid-template-columns:1.1fr 1fr auto; gap:26px; align-items:center; padding:15px 0 20px; font-size:.9rem; }
 .summary p { margin:0 0 4px; } progress { width:100%; height:7px; accent-color:var(--accent); display:block; } .dates { display:grid; font-size:.8rem; }
-nav { display:flex; gap:8px; border-bottom:1px solid var(--line); }
+nav { display:flex; flex-wrap:wrap; gap:8px; border-bottom:1px solid var(--line); }
+.nav-count { display:inline-block; font-size:.8em; font-weight:400; font-variant-numeric:tabular-nums; white-space:nowrap; }
 nav a { padding:10px 20px; text-decoration:none; border-bottom:3px solid transparent; font-weight:600; }
 nav a[aria-current="page"] { border-color:var(--accent); background:#edf2eb; }
 .actions { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0; }

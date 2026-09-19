@@ -46,6 +46,12 @@ function progressText(label, value) {
 }
 
 function updateProgress() {
+  for (const entry of data.stages) {
+    const value = progress(entry.groups.flatMap((group) => group.items));
+    const count = $(`[data-route="${entry.id}"] .nav-count`);
+    count.textContent = `${value.done}/${value.total}`;
+    count.title = value.pending ? '毕业年限待判断，简历要求尚未确认' : '已完成 / 适用条目';
+  }
   const overall = progress(items);
   $('[data-testid="overall-progress"]').textContent = progressText('总进度', overall);
   $('#overall-bar').value = overall.percent;

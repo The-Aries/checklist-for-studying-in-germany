@@ -104,7 +104,7 @@ Rules:
 - count only `progress: true` items;
 - count a conditional item only when its condition applies;
 - APS cannot show a final 100% state while the graduation-age profile question remains unanswered;
-- deferred/non-implemented stages do not enter the denominator;
+- deferred/non-implemented stages do not enter the denominator; implemented City Registration and Residence Permit rows do;
 - FAQ never enters progress.
 
 ## DOM/test contract

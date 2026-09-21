@@ -2,7 +2,7 @@
 
 The first public version is accepted only when all applicable items below pass.
 
-The current implementation milestone is APS + visa. Criteria for pre-departure, Anmeldung, residence permit, and broader later content remain future release criteria and are not grounds to invent unfinished content in this milestone.
+The current public implementation covers APS, visa, City Registration, Residence Permit and FAQ. Pre-departure and broader later content remain future scope and are not grounds to invent unfinished content.
 
 These are release criteria, not the Codex-owned test suite. Independent tests are prepared and executed separately by the evaluator.
 
@@ -10,9 +10,9 @@ These are release criteria, not the Codex-owned test suite. Independent tests ar
 
 - [ ] Site is Chinese-first and targets Mainland China regular university bachelor's graduates, including fresh and long-graduated applicants, preparing for a German master's degree.
 - [ ] Out-of-scope applicant types are clearly excluded or redirected to official sources rather than silently treated as identical.
-- [ ] APS and visa content exist and are complete for the active milestone.
+- [ ] APS, visa, City Registration and Residence Permit content exist for the current public scope.
 - [ ] Every normative checklist row has an appropriate traceable source.
-- [ ] City-specific implementation details are not presented as nationwide rules.
+- [ ] City-specific implementation details are not presented as nationwide rules; post-arrival stages explicitly direct users to their local authority for appointment systems, forms and extra documents.
 - [ ] Conditional requirements within the target audience are clearly labeled.
 - [ ] The APS “毕业超过一年” row offers the project convenience CV template and labels it clearly as non-official.
 
@@ -20,10 +20,10 @@ These are release criteria, not the Codex-owned test suite. Independent tests ar
 
 - [ ] No separate landing page is required.
 - [ ] Root/default view resolves to APS.
-- [ ] Hash routes work for every implemented main section (APS, visa, FAQ).
+- [ ] Hash routes work for every implemented main section (APS, visa, City Registration, Residence Permit, FAQ).
 - [ ] Browser back/forward behavior is coherent.
 - [ ] Directly opening a section hash renders the intended section.
-- [ ] APS and visa tab labels show compact live completed/total counts; APS count respects the graduation-age condition and updates immediately.
+- [ ] APS, visa, City Registration and Residence Permit tab labels show compact live completed/total counts; APS count respects the graduation-age condition and updates immediately.
 
 ## Checklist UI
 

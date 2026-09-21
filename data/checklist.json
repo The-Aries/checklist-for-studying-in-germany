@@ -107,6 +107,96 @@
       "retrieved": "2026-09-19",
       "sourceDate": "current 2026 page",
       "section": "requirements for study visa"
+    },
+    {
+      "id": "REG-001",
+      "authority": "德国联邦司法部 / Bundesamt für Justiz",
+      "label": "Bundesmeldegesetz § 17 — Anmeldung, Abmeldung",
+      "url": "https://www.gesetze-im-internet.de/bmg/__17.html",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current law",
+      "section": "§ 17 Abs. 1"
+    },
+    {
+      "id": "REG-002",
+      "authority": "德国联邦司法部 / Bundesamt für Justiz",
+      "label": "Bundesmeldegesetz § 19 — Mitwirkung des Wohnungsgebers",
+      "url": "https://www.gesetze-im-internet.de/bmg/__19.html",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current law",
+      "section": "Wohnungsgeberbestätigung"
+    },
+    {
+      "id": "REG-003",
+      "authority": "德国联邦门户 Bundesportal",
+      "label": "Wohnsitz anmelden",
+      "url": "https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99115005104000",
+      "retrieved": "2026-09-22",
+      "sourceDate": "live page",
+      "section": "nationwide service entry with regional selection"
+    },
+    {
+      "id": "REG-004",
+      "authority": "德国联邦司法部 / Bundesamt für Justiz",
+      "label": "Bundesmeldegesetz § 24 — Datenerhebung, Meldebestätigung",
+      "url": "https://www.gesetze-im-internet.de/bmg/__24.html",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current law",
+      "section": "amtliche Meldebestätigung"
+    },
+    {
+      "id": "REG-005",
+      "authority": "德国联邦司法部 / Bundesamt für Justiz",
+      "label": "Bundesmeldegesetz § 23 — Erfüllung der allgemeinen Meldepflicht",
+      "url": "https://www.gesetze-im-internet.de/bmg/__23.html",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current law",
+      "section": "identity document, Meldeschein and Wohnungsgeberbestätigung"
+    },
+    {
+      "id": "RES-001",
+      "authority": "德国联邦司法部 / Bundesamt für Justiz",
+      "label": "Aufenthaltsgesetz § 16b — Studium",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current law",
+      "section": "study residence permit and validity"
+    },
+    {
+      "id": "RES-002",
+      "authority": "德国联邦门户 Bundesportal / Freistaat Bayern",
+      "label": "Aufenthaltserlaubnis; Beantragung zum Zweck des Studiums",
+      "url": "https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99010019001004/herausgeber/BY-210/region/09",
+      "retrieved": "2026-09-22",
+      "sourceDate": "updated 2026-09-01",
+      "section": "common documents, procedure and fee"
+    },
+    {
+      "id": "RES-003",
+      "authority": "德国联邦政府 “Make it in Germany”",
+      "label": "Visa for studying",
+      "url": "https://www.make-it-in-germany.com/en/visa-residence/types/studying",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current 2026 page",
+      "section": "study residence requirements and 2026 funding amount"
+    },
+    {
+      "id": "RES-004",
+      "authority": "德国联邦政府 “Make it in Germany”",
+      "label": "At a Glance: Visa for Studying",
+      "url": "https://www.make-it-in-germany.com/fileadmin/1_Rebrush_2022/a_Fachkraefte/PDF-Dateien/3_Visum_u_Aufenthalt/Visagrafik_EN/Visum_Studieren_EN.pdf",
+      "retrieved": "2026-09-22",
+      "sourceDate": "2026-01",
+      "section": "Step 5 — apply for a residence permit in Germany"
+    },
+    {
+      "id": "RES-005",
+      "authority": "德国联邦司法部 / Bundesamt für Justiz",
+      "label": "Aufenthaltsverordnung § 45 — Gebühren",
+      "url": "https://www.gesetze-im-internet.de/aufenthv/__45.html",
+      "retrieved": "2026-09-22",
+      "sourceDate": "current law",
+      "section": "first issuance fee"
     }
   ],
   "stages": [
@@ -593,6 +683,204 @@
         "APS-005"
       ],
       "notes": []
+    },
+    {
+      "id": "city-registration",
+      "title": "City Registration（Anmeldung）",
+      "appliesTo": "适用于抵达德国并实际入住德国住所后的本项目目标用户；具体预约系统、表格和附加材料由所在地 Meldebehörde / Bürgeramt 决定。",
+      "lastUpdated": "2026-09-22",
+      "lastVerified": "2026-09-22",
+      "intro": [
+        "德国《联邦登记法》规定，入住新住所后通常须在两周内向新住所所在地的登记机关办理 Anmeldung。",
+        "全国通用核心要求主要是身份证明和 Wohnungsgeberbestätigung；你在乌尔姆拿到的“在读证明”等材料并不是联邦层面的统一必备项，部分城市可能另有要求。请在 Bundesportal 选择所在地，或搜索“Anmeldung + 城市名”确认当地预约方式和附加材料。"
+      ],
+      "groups": [
+        {
+          "id": "process",
+          "title": "办理步骤与通用材料",
+          "items": [
+            {
+              "id": "city-find-office",
+              "title": "确认当地登记机关和办理方式",
+              "description": "通过 Bundesportal 选择你的所在地，确认负责的 Meldebehörde / Bürgeramt、是否需要预约以及当地是否提供线上办理。",
+              "sources": ["REG-003"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "city-register-two-weeks",
+              "title": "入住后两周内办理 Anmeldung",
+              "description": "实际入住新住所后通常应在两周内向新住所所在地的登记机关完成住址登记。",
+              "sources": ["REG-001", "REG-003"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "city-id-document",
+              "title": "有效身份证明",
+              "description": "准备有效护照或登记机关接受的身份证明；非欧盟学生同时带上当前签证 / 居留文件可减少现场补材料风险。",
+              "sources": ["REG-005"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "city-housing-confirmation",
+              "title": "Wohnungsgeberbestätigung",
+              "description": "向房东、宿舍运营方或其授权人取得入住确认；该确认应包含房东信息、入住日期、住房地址和登记人的姓名。",
+              "sources": ["REG-002"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "city-local-form",
+              "title": "核对当地表格和附加材料",
+              "description": "部分城市会要求当地 Meldeschein、预约确认或其它证明；以所在地官方页面为准，不把乌尔姆的附加材料当成全国统一要求。",
+              "sources": ["REG-003", "REG-005"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "city-receive-confirmation",
+              "title": "取得 Meldebestätigung",
+              "description": "登记完成后保存官方 Meldebestätigung；它会在银行、保险、居留许可等后续手续中经常用到。",
+              "sources": ["REG-004"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            }
+          ]
+        }
+      ],
+      "references": ["REG-001", "REG-002", "REG-003", "REG-004", "REG-005"],
+      "notes": [
+        {
+          "title": "城市差异",
+          "text": "预约网站、办理地点、是否可线上办理以及额外材料会因城市而异。最稳妥的做法是从 Bundesportal 选择所在地，或搜索“Anmeldung + 你的城市名”进入当地政府官网。",
+          "sources": ["REG-003"]
+        }
+      ]
+    },
+    {
+      "id": "residence-permit",
+      "title": "Residence Permit（Aufenthaltserlaubnis）",
+      "appliesTo": "适用于持学习目的入境签证、在德国进行全日制硕士学习，并准备申请《居留法》§16b 学习居留许可的本项目目标用户。",
+      "lastUpdated": "2026-09-22",
+      "lastVerified": "2026-09-22",
+      "intro": [
+        "全国法律框架和核心材料高度一致，但实际申请入口、预约、表格、照片提交方式和可能追加的证明由你居住地的 Ausländerbehörde 决定。",
+        "官方流程建议先完成德国住址登记，再联系主管 Ausländerbehörde，并务必在当前入境签证到期前提交学习居留许可申请。"
+      ],
+      "groups": [
+        {
+          "id": "process",
+          "title": "办理步骤与通用材料",
+          "items": [
+            {
+              "id": "residence-complete-registration",
+              "title": "先完成 City Registration",
+              "description": "先完成德国住址登记并保存 Meldebestätigung，再进入居留许可办理流程。",
+              "sources": ["RES-004"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-find-authority",
+              "title": "确认主管 Ausländerbehörde",
+              "description": "按你的德国住址确认主管外国人管理局，并核对当地线上申请、邮件或现场预约方式及完整材料清单。",
+              "sources": ["RES-002", "RES-004"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-apply-before-visa-expiry",
+              "title": "在签证到期前提交申请",
+              "description": "不要等入境签证到期后再办理；官方流程明确要求在当前学习签证失效前申请 §16b 学习居留许可。",
+              "sources": ["RES-002", "RES-004"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-passport",
+              "title": "有效护照",
+              "description": "准备有效护照；当地主管机关可能同时要求签证页、入境章或现有居留文件的复印件。",
+              "sources": ["RES-002"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-photo",
+              "title": "当前生物识别照片",
+              "description": "准备符合当前要求的生物识别照片；数字照片的提交方式可能因当地机关设备和流程而异，请按预约页面执行。",
+              "sources": ["RES-002"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-enrollment",
+              "title": "Immatrikulationsbescheinigung",
+              "description": "准备当前有效的高校注册 / 在读证明；§16b 面向在国家或国家认可高校进行全日制学习的学生。",
+              "sources": ["RES-001", "RES-002"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-finance",
+              "title": "生活费资金证明",
+              "description": "证明学习期间生活费有保障；2026 年常用基准为 992 欧元/月、11,904 欧元/年，可通过 Sperrkonto、奖学金或 Verpflichtungserklärung 等方式证明。",
+              "sources": ["RES-002", "RES-003"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-insurance",
+              "title": "医疗保险证明",
+              "description": "准备能够证明当前有效医疗保险覆盖的材料；仅有申请记录而无有效保险证明可能不足。",
+              "sources": ["RES-002"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-fee",
+              "title": "准备居留许可费用",
+              "description": "现行《居留条例》规定首次签发 Aufenthaltserlaubnis 的标准费用为 100 欧元；减免、豁免和支付方式以你的实际情况及当地机关为准。",
+              "sources": ["RES-005"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            },
+            {
+              "id": "residence-biometric-appointment",
+              "title": "完成现场核验并等待 eAT",
+              "description": "按当地流程完成材料核验及指纹等 eAT 制卡步骤；处理和领卡时间因 Ausländerbehörde 而异。",
+              "sources": ["RES-002"],
+              "sourceLocation": "",
+              "progress": true,
+              "condition": null
+            }
+          ]
+        }
+      ],
+      "references": ["RES-001", "RES-002", "RES-003", "RES-004", "RES-005"],
+      "notes": [
+        {
+          "title": "当地清单优先",
+          "text": "联邦层面给出的只是共同核心。租房证明、Meldebestätigung、具体申请表、照片传输方式、预约渠道或其它补充材料都可能因城市而不同。请搜索“Aufenthaltserlaubnis Studium + 你的城市名”，并以主管 Ausländerbehörde 的最新页面为准。",
+          "sources": ["RES-002", "RES-004"]
+        }
+      ]
     }
   ]
 }

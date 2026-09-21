@@ -2,7 +2,7 @@
 
 ## Current milestone note
 
-The broader product eventually covers APS through the first residence permit, but **Milestone 01 research/content is intentionally complete only for APS + study visa**. Sections 5–7 below are future guidance and must not be implemented as empty or guessed content during Milestone 01.
+The broader product covers APS through the first residence permit. APS + visa were frozen in Milestone 01; City Registration + Residence Permit were subsequently researched and implemented on 2026-09-22. The pre-departure section remains future guidance and must not be implemented as an empty or guessed page.
 
 ## 1. Objective
 

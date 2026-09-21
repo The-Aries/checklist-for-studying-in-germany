@@ -23,7 +23,7 @@ The evaluator should run the committed independent suite against the candidate a
 
 ## Deferred scope
 
-Pre-departure, Anmeldung, residence permits, additional applicant routes and broader FAQ remain deferred. The future Worker/GitHub App submission boundary is described in `ROADMAP.md`; no in-page submission or backend was introduced.
+Pre-departure, additional applicant routes and broader FAQ remain deferred. The future Worker/GitHub App submission boundary is described in `ROADMAP.md`; no in-page submission or backend was introduced.
 
 ## Independent technical verification — 2026-09-19
 
@@ -43,3 +43,12 @@ After the repair:
 Two evaluator-test defects discovered during the loop were corrected without weakening product requirements: the official `videx.diplo.de` host was added to the authoritative-source allowlist, and asynchronous source rendering assertions were made wait-safe to remove timing flakes.
 
 This constitutes **independent technical acceptance for Milestone 01**. A subjective human visual/editorial review may still be performed before wider promotion; it is not a known functional blocker.
+
+## Post-arrival extension — 2026-09-22
+
+Added two public checklist stages:
+
+- `#city-registration` — City Registration / Anmeldung;
+- `#residence-permit` — study Residence Permit / Aufenthaltserlaubnis under §16b AufenthG.
+
+The implementation deliberately separates Germany-wide/common requirements from local administration. The Ulm university handout supplied for comparison was not copied into the repository and was not treated as a nationwide authority. Federal law and federal-government sources control the common checklist; the site tells users to use Bundesportal/local government pages for appointment systems, forms and extra city-specific evidence.

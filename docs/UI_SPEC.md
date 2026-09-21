@@ -23,19 +23,21 @@ Print:
 
 ## 2. Current navigation
 
-Milestone 01 navigation shows only implemented/useful destinations:
+Navigation shows only implemented/useful destinations:
 
 - APS
 - 签证
+- City Registration
+- Residence Permit
 - FAQ
 
-Do not render empty tabs for pre-departure, Anmeldung, or residence permit. Those stages remain in the roadmap until their content is researched and verified.
+Do not render an empty pre-departure tab. Add future stages only after their content is researched and verified.
 
 Root behavior:
 
 - opening the site with no hash renders APS;
 - normalize the URL to `#aps` without adding a useless history entry;
-- direct `#visa` and `#faq` links work;
+- direct `#visa`, `#city-registration`, `#residence-permit` and `#faq` links work;
 - browser back/forward follows section changes.
 
 ## 3. Persistent header

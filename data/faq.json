@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-19",
-  "lastVerified": "2026-09-19",
+  "lastUpdated": "2026-09-22",
+  "lastVerified": "2026-09-22",
   "items": [
     {
       "id": "FAQ-001",
@@ -26,11 +26,18 @@
       "id": "FAQ-005",
       "question": "为什么毕业超过一年要回答一个额外问题？",
       "answer": "APS 2026-09 官方须知要求毕业超过一年的高校毕业生额外提交德文或英文表格式简历，因此网站需要知道该条件是否适用，才能正确计算 APS 进度。"
+    },
+    {
+      "id": "FAQ-006",
+      "question": "City Registration 和 Residence Permit 每个城市都一样吗？",
+      "answer": "全国法律框架和核心材料相近，但预约系统、办理地点、当地表格、照片提交方式及附加材料会因城市而异。City Registration 可从 Bundesportal 选择所在地或搜索“Anmeldung + 城市名”；Residence Permit 请搜索“Aufenthaltserlaubnis Studium + 城市名”，并以主管 Ausländerbehörde 最新页面为准。"
     }
   ],
   "references": [
     "APS-001",
     "APS-002",
-    "VISA-001"
+    "VISA-001",
+    "REG-003",
+    "RES-002"
   ]
 }

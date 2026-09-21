@@ -4,24 +4,22 @@
 
 ## 当前状态
 
-APS、签证与轻量常见问题的静态版本已实现，并已完成 Milestone 01 的独立技术验收。完整 Playwright 验收在桌面 Chromium、移动 Chromium 与桌面 WebKit 上通过；后续仍可进行人工视觉/文案复核。
+APS、签证、City Registration、Residence Permit 与轻量常见问题均已实现。APS/签证的 Milestone 01 已完成独立技术验收；2026-09-22 新增的入境后两阶段基于德国联邦法律、Bundesportal 与联邦政府官方信息整理，并保留城市差异提示。
 
-候选网站：https://the-aries.github.io/checklist-for-studying-in-germany/
+网站：https://de.010406.space/
 
-提供 33 个条目、官方来源、毕业年限条件、本地保存、重置、当前进度/空白打印，以及非官方毕业后简历 DOCX 模板。不适用的条件条目不计入进度。
+提供 APS、签证、住址登记、学习居留许可的进度清单、官方来源、毕业年限条件、本地保存、重置、当前进度/空白打印，以及非官方毕业后简历 DOCX 模板。不适用的条件条目不计入进度。
 
 当前实现里程碑：
 
 - APS
 - 签证
-
-后续规划范围（本里程碑暂不实现）：
-
-- 赴德前准备
-- 住址登记（Anmeldung）
-- 居留许可（Aufenthaltstitel）
+- City Registration（Anmeldung）
+- Residence Permit（Aufenthaltserlaubnis）
 
 FAQ / GitHub Discussions / Issues 属于网站基础设施，会在当前里程碑中提供轻量版本。
+
+“赴德前准备”暂不单独作为空页面；如后续形成足够独立且经过核验的内容再加入。
 
 第一版目标用户：
 
@@ -34,7 +32,7 @@ FAQ / GitHub Discussions / Issues 属于网站基础设施，会在当前里程�
 
 独立浏览器验收使用 Playwright。测试代码、`package.json`、`package-lock.json` 与 Playwright 配置提交到仓库，便于在 Windows、macOS、Linux 上复用；Node.js/npm 仅属于开发/测试工具链，不是部署网站的运行依赖。
 
-当前已冻结内容见 `docs/CONTENT_APS_VISA.md`，当前独立验收契约见 `docs/ACCEPTANCE.md` 与 `tests/`。
+内容规格见 `docs/CONTENT_APS_VISA.md` 与 `docs/CONTENT_ARRIVAL.md`，官方来源见 `docs/SOURCES.md`，当前独立验收契约见 `docs/ACCEPTANCE.md` 与 `tests/`。
 
 ## 本地使用与维护
 

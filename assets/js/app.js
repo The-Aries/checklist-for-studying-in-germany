@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'study-in-germany-checklist:v1';
-const routes = ['aps', 'visa', 'faq'];
+const routes = ['aps', 'visa', 'city-registration', 'residence-permit', 'faq'];
 const $ = (selector) => document.querySelector(selector);
 const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const freshState = () => ({ schemaVersion: 1, completed: {}, profile: {}, activeRoute: 'aps' });
@@ -142,7 +142,7 @@ async function init() {
     }
   });
   $('[data-action="reset"]').addEventListener('click', () => {
-    if (!window.confirm('确定重置全部 APS 与签证进度及毕业年限选择吗？此操作只清除本清单的数据。')) return;
+    if (!window.confirm('确定重置全部清单进度及毕业年限选择吗？此操作只清除本清单的数据。')) return;
     try { localStorage.removeItem(STORAGE_KEY); } catch { notice(); }
     state = freshState();
     render();
@@ -155,6 +155,6 @@ async function init() {
 }
 
 init().catch((error) => {
-  $('#content').innerHTML = '<p role="alert">清单加载失败，请刷新重试。你也可以查看<a href="docs/CONTENT_APS_VISA.md">清单内容</a>与<a href="docs/SOURCES.md">官方来源</a>。</p>';
+  $('#content').innerHTML = '<p role="alert">清单加载失败，请刷新重试。你也可以查看<a href="docs/CONTENT_APS_VISA.md">APS / 签证内容</a>、<a href="docs/CONTENT_ARRIVAL.md">入境后内容</a>与<a href="docs/SOURCES.md">官方来源</a>。</p>';
   console.error(error);
 });

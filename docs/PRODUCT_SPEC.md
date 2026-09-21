@@ -41,14 +41,14 @@ There is no separate landing page.
 
 The root site loads the application shell and defaults to the APS section. Navigation is hash-based so every main section is directly linkable.
 
-The route list below describes the intended broader product lifecycle. **Milestone 01 exposes only `#aps`, `#visa`, and `#faq`.** Deferred routes must not be rendered as empty tabs before their content has been researched and verified.
+The current public lifecycle exposes APS, visa, City Registration, Residence Permit and FAQ. Pre-departure remains deferred until it has enough distinct, verified content to justify a separate stage.
 
 Initial routes:
 
 - `#aps`
 - `#visa`
 - `#pre-departure`
-- `#anmeldung`
+- `#city-registration`
 - `#residence-permit`
 - `#faq`
 
@@ -56,10 +56,11 @@ Main lifecycle:
 
 1. APS
 2. 签证
-3. 赴德前准备
-4. 住址登记（Anmeldung）
-5. 居留许可（Aufenthaltstitel）
-6. FAQ
+3. City Registration（Anmeldung）
+4. Residence Permit（Aufenthaltserlaubnis）
+5. FAQ
+
+Deferred: 赴德前准备（only when it contains enough non-duplicative verified content).
 
 ## 5. Shared page header
 
@@ -117,7 +118,7 @@ Every tab has:
 - row-level source links/references where appropriate;
 - a `References` section at the bottom.
 
-For Anmeldung and residence permits, distinguish nationally common requirements from city-specific implementation. V1 should state only robust common guidance unless a city-specific example is explicitly labeled as an example.
+For City Registration and Residence Permit, distinguish nationally common requirements from city-specific implementation. State only the robust Germany-wide/common core in progress rows. Appointment portals, local forms, office addresses, opening hours, photo-transfer details and local add-on documents must be resolved through the user's own city/authority rather than copied from Ulm or another single city.
 
 ## 8. Progress persistence
 

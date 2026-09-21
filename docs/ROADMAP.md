@@ -8,13 +8,15 @@
 - Local progress + printing
 - Independent Playwright acceptance flow
 
-Pre-departure, Anmeldung, and residence permit are not part of the current implementation handoff.
+Milestone 01 was subsequently extended with the common Germany-wide City Registration and Residence Permit stages after source verification on 2026-09-22.
 
 ## Target broader V1
 
 - Chinese interface/content.
 - Mainland China regular university bachelor's graduates applying for German master's programs.
 - APS → visa → pre-departure → Anmeldung → residence permit.
+- Current implemented lifecycle: APS → visa → City Registration → Residence Permit.
+- Pre-departure remains optional/deferred rather than an empty navigation stage.
 - Local browser progress.
 - Printing.
 - Curated FAQ.

@@ -76,6 +76,8 @@ Supported milestone routes:
 
 - `#aps`
 - `#visa`
+- `#city-registration`
+- `#residence-permit`
 - `#faq`
 
 Algorithm:
@@ -117,7 +119,7 @@ For each route:
 - bind checkbox events;
 - recalculate stage and overall progress.
 
-Overall progress denominator contains only currently implemented APS + visa items whose conditions apply.
+Overall progress denominator contains all currently implemented checklist stages (APS, visa, City Registration and Residence Permit) whose item conditions apply.
 
 FAQ and deferred roadmap stages never enter progress.
 

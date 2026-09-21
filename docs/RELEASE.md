@@ -52,3 +52,14 @@ Added two public checklist stages:
 - `#residence-permit` — study Residence Permit / Aufenthaltserlaubnis under §16b AufenthG.
 
 The implementation deliberately separates Germany-wide/common requirements from local administration. The Ulm university handout supplied for comparison was not copied into the repository and was not treated as a nationwide authority. Federal law and federal-government sources control the common checklist; the site tells users to use Bundesportal/local government pages for appointment systems, forms and extra city-specific evidence.
+
+Implementation commit: `f13fe93`.
+
+Verification performed after implementation:
+
+- JSON/data integrity and Git whitespace checks passed;
+- the pre-existing Playwright suite passed on desktop/mobile Chromium; WebKit's parallel full-suite run hit existing 30-second timing limits in several old APS/Visa tests, and the affected source/state checks passed when rerun serially with a larger timeout;
+- a separate local evaluator check for the two new stages passed on both Chromium and WebKit, including direct hashes, expected row counts (City Registration 6, Residence Permit 10), live nav progress, localStorage persistence and 390px mobile no-overflow behavior;
+- every newly registered REG/RES official source returned HTTP 200 during the verification pass;
+- GitHub Pages built `f13fe93` successfully;
+- live smoke check at `https://de.010406.space/` confirmed 6 City Registration rows, 10 Residence Permit rows, `Last Verified: 2026-09-22`, responsive layout and zero page/console errors.
